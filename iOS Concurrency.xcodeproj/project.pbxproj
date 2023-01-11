@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3051AA27296E5AA0007EC62C /* UserAndPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3051AA26296E5AA0007EC62C /* UserAndPosts.swift */; };
 		30BF6EE2296B7930008A825D /* iOS_ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF6EE1296B7930008A825D /* iOS_ConcurrencyApp.swift */; };
 		30BF6EE4296B7930008A825D /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF6EE3296B7930008A825D /* UsersListView.swift */; };
 		30BF6EE6296B7933008A825D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BF6EE5296B7933008A825D /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3051AA26296E5AA0007EC62C /* UserAndPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPosts.swift; sourceTree = "<group>"; };
 		30BF6EDE296B7930008A825D /* iOS Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Concurrency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BF6EE1296B7930008A825D /* iOS_ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ConcurrencyApp.swift; sourceTree = "<group>"; };
 		30BF6EE3296B7930008A825D /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				30BF6EF1296B7B69008A825D /* User.swift */,
 				30BF6EF3296B7C22008A825D /* Post.swift */,
+				3051AA26296E5AA0007EC62C /* UserAndPosts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3051AA27296E5AA0007EC62C /* UserAndPosts.swift in Sources */,
 				30BF6EE4296B7930008A825D /* UsersListView.swift in Sources */,
 				30BF6F02296B8A07008A825D /* Bundle+Extension.swift in Sources */,
 				30BF6EFB296B8606008A825D /* UsersListViewModel.swift in Sources */,
